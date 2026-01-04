@@ -26,7 +26,8 @@ body {
 }
 
 .link { text-decoration: none; 
-    color: #434455;}
+    color: #434455;
+    display: inline-block;}
 .link:hover,
 .link:focus {color: #404bbf;}
 
@@ -69,7 +70,8 @@ body {
     color: #2e2f42;
     font-size: 36px;
     line-height: 1.11;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+    margin-bottom: 72px;}
 
 .section-title {text-align:center; 
     font-weight: 500;
@@ -138,7 +140,9 @@ letter-spacing: 0.02em;}
     line-height: 1.16;
     font-size: 18px;
     color: #F4F4FD;
-    text-decoration: none;}
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;}
 .social-links {font-style: normal;
     letter-spacing: 0.02em;
     display: flex;
@@ -203,7 +207,7 @@ letter-spacing: 0.02em;}
   row-gap: 48px;
 }
 .team-info {
-  padding: 32px 0;
+  padding: 32px 16px;
 }
 .portfolio-info {
   padding: 32px 16px;
