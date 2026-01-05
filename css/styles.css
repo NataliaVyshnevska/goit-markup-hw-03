@@ -78,7 +78,8 @@ body {
     font-size: 20px; 
     line-height: 1.2; 
     letter-spacing: 0.02em; 
-    color: #2e2f42;}
+    color: #2e2f42;
+    margin-bottom: 8px;}
 .section-title:hover,
 .section-title:focus {color: #4D5AE5;}
 
@@ -103,7 +104,6 @@ letter-spacing: 0.02em;}
 
 .contactes-color {background-color: #F4F4FD;}
 .contactes {background-color: #ffffff;
-    padding: 32px 0;
     text-align: center;
     box-shadow:
     0px 1px 6px rgba(46, 47, 66, 0.08),
